@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build:dev": "env-cmd -f .evn.development next build",
-    "build:prod": "env-cmd -f .evn.production next build",
+    "build:dev": "env-cmd -f .env.development next build",
+    "build:prod": "env-cmd -f .env.production next build",
     "start:dev": "env-cmd -f .evn.development next start",
-    "start:prod": "env-cmd -f .evn.production next start",
+    "start:prod": "env-cmd -f .env.production next start",
     "lint": "next lint"
   },
   "dependencies": {
