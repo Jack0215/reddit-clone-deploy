@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'reddit-server',
-      script: 'npm run start:prod',
+      script: 'env-cmd -f .env.production ts-node ./src/server.ts',
     },
   ],
 };
